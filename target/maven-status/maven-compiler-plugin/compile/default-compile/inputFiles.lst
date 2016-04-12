@@ -1,7 +1,7 @@
 /data/workspace/photoscore/src/main/java/photoscore/web/controller/SelfieController.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/model/Emotion.java
+/data/workspace/photoscore/src/main/java/photoscore/service/user/impl/UserServiceImpl.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/model/UserWapper.java
-/data/workspace/photoscore/src/main/java/photoscore/dao/mapper/SelfieMapper.java
 /data/workspace/photoscore/src/main/java/photoscore/model/selfie/Selfie.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/org/json/JSONTokener.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/model/Trends.java
@@ -53,18 +53,21 @@
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/model/TagWapper.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/Reminds.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/model/UserTimelineIds.java
+/data/workspace/photoscore/src/main/java/photoscore/service/user/LoginService.java
+/data/workspace/photoscore/src/main/java/photoscore/dao/mapper/user/UserMapper.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/model/FriendsTimelineIds.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/org/json/CDL.java
-/data/workspace/photoscore/src/main/java/photoscore/dao/mapper/TestMapper.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/model/ApiRateLimits.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/model/UserCounts.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/Friendships.java
+/data/workspace/photoscore/src/main/java/photoscore/common/utils/WebUtil.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/model/Favorites.java
 /data/workspace/photoscore/src/main/java/photoscore/Application.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/model/WeiboException.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/model/RepostTimelineIds.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/PublicService.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/model/Configuration.java
+/data/workspace/photoscore/src/main/java/photoscore/dao/mapper/selfie/SelfieMapper.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/org/json/JSONString.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/Comments.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/Place.java
@@ -81,6 +84,7 @@
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/ShortUrl.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/model/Comment.java
 /data/workspace/photoscore/src/main/java/photoscore/common/constants/Constants.java
+/data/workspace/photoscore/src/main/java/photoscore/service/user/impl/LoginServiceImpl.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/org/json/JSONArray.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/org/json/HTTPTokener.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/Oauth.java
@@ -91,6 +95,7 @@
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/model/Poisition.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/model/MySSLSocketFactory.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/Register.java
+/data/workspace/photoscore/src/main/java/photoscore/service/user/UserService.java
 /data/workspace/photoscore/src/main/java/photoscore/common/utils/ReturnType.java
 /data/workspace/photoscore/src/main/java/photoscore/web/controller/UserController.java
 /data/workspace/photoscore/src/main/java/photoscore/sdk/weibo4j/org/json/Cookie.java

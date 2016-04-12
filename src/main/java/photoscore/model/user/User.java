@@ -16,7 +16,9 @@ public class User implements Serializable {
     //用户名
     private String userName;
     //头像地址
-    private String photoUrl;
+    private String profileImageUrl;
+    //性别
+    private String gender;
     //密码
     private String password;
     //状态
@@ -52,12 +54,20 @@ public class User implements Serializable {
         this.userName = userName;
     }
 
-    public String getPhotoUrl() {
-        return photoUrl;
+    public String getProfileImageUrl() {
+        return profileImageUrl;
     }
 
-    public void setPhotoUrl(String photoUrl) {
-        this.photoUrl = photoUrl;
+    public void setProfileImageUrl(String profileImageUrl) {
+        this.profileImageUrl = profileImageUrl;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     public String getPassword() {

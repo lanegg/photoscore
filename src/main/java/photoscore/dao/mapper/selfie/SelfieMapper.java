@@ -1,4 +1,4 @@
-package photoscore.dao.mapper;
+package photoscore.dao.mapper.selfie;
 
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;

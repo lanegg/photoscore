@@ -2,7 +2,6 @@ photoscore/sdk/weibo4j/model/UserWapper.class
 photoscore/sdk/weibo4j/PublicService.class
 photoscore/sdk/weibo4j/Place.class
 photoscore/sdk/weibo4j/model/PoisitionCategory.class
-photoscore/dao/mapper/TestMapper.class
 photoscore/sdk/weibo4j/ShortUrl.class
 photoscore/sdk/weibo4j/model/User.class
 photoscore/sdk/weibo4j/Account.class
@@ -25,7 +24,7 @@ photoscore/service/selfie/impl/SelfieServiceImpl.class
 photoscore/sdk/weibo4j/model/Constants.class
 photoscore/sdk/weibo4j/util/ArrayUtils.class
 photoscore/sdk/weibo4j/org/json/JSONArray.class
-photoscore/dao/mapper/SelfieMapper.class
+photoscore/common/utils/WebUtil.class
 photoscore/sdk/weibo4j/model/Trend.class
 photoscore/sdk/weibo4j/model/Places.class
 photoscore/sdk/weibo4j/model/Query.class
@@ -38,6 +37,7 @@ photoscore/sdk/weibo4j/org/json/CDL.class
 photoscore/sdk/weibo4j/model/Version.class
 photoscore/sdk/weibo4j/org/json/CookieList.class
 photoscore/sdk/weibo4j/http/Response.class
+photoscore/dao/mapper/selfie/SelfieMapper.class
 photoscore/sdk/weibo4j/model/SchoolSearch.class
 photoscore/sdk/weibo4j/util/BareBonesBrowserLaunch.class
 photoscore/sdk/weibo4j/Suggestion.class
@@ -50,9 +50,11 @@ photoscore/sdk/weibo4j/Weibo.class
 photoscore/service/selfie/SelfieService.class
 photoscore/sdk/weibo4j/org/json/JSONString.class
 photoscore/sdk/weibo4j/http/HttpClient$ByteArrayPart.class
+photoscore/dao/mapper/user/UserMapper.class
 photoscore/sdk/weibo4j/model/Source.class
 photoscore/common/utils/StringUtils.class
 photoscore/sdk/weibo4j/org/json/HTTPTokener.class
+photoscore/service/user/LoginService.class
 photoscore/sdk/weibo4j/model/UserTimelineIds.class
 photoscore/web/controller/LoginController.class
 photoscore/sdk/weibo4j/model/PostParameter.class
@@ -64,6 +66,7 @@ photoscore/sdk/weibo4j/model/Configuration.class
 photoscore/sdk/weibo4j/model/MySSLSocketFactory.class
 photoscore/sdk/weibo4j/model/Gender.class
 photoscore/sdk/weibo4j/model/WeiboResponse.class
+photoscore/service/user/impl/LoginServiceImpl.class
 photoscore/sdk/weibo4j/org/json/JSONObject$Null.class
 photoscore/sdk/weibo4j/Tags.class
 photoscore/sdk/weibo4j/Friendships.class
@@ -81,8 +84,10 @@ photoscore/sdk/weibo4j/http/AccessToken.class
 photoscore/sdk/weibo4j/Search.class
 photoscore/sdk/weibo4j/model/ApiRateLimits.class
 photoscore/sdk/weibo4j/model/Favorites.class
+photoscore/service/user/impl/UserServiceImpl.class
 photoscore/sdk/weibo4j/org/json/JSONObject$1.class
 photoscore/sdk/weibo4j/Location.class
+photoscore/service/user/UserService.class
 photoscore/sdk/weibo4j/model/FriendsTimelineIds.class
 photoscore/sdk/weibo4j/model/CommentWapper.class
 photoscore/sdk/weibo4j/model/UserTrend.class

@@ -92,6 +92,14 @@ public class AccessToken extends WeiboResponse implements Serializable {
 		"]";
 	}
 
+    /**
+     * 获取access token 的open user id
+     * @return
+     */
+    public String getUid() {
+        return this.uid;
+    }
+
 
 
 

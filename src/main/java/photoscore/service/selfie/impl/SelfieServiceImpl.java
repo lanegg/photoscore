@@ -8,7 +8,7 @@ import photoscore.common.constants.Constants;
 import photoscore.common.utils.DateUtils;
 import photoscore.common.utils.ReturnType;
 import photoscore.common.utils.StringUtils;
-import photoscore.dao.mapper.SelfieMapper;
+import photoscore.dao.mapper.selfie.SelfieMapper;
 import photoscore.model.selfie.Selfie;
 import photoscore.service.selfie.SelfieService;
 
