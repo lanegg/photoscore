@@ -15,7 +15,6 @@ public class LoginController {
     @RequestMapping(value = "/login/loginToWeibo")
     public String loginToWeibo() {
 
-
         try {
 
             Oauth oauth = new Oauth();
@@ -29,6 +28,8 @@ public class LoginController {
         }
 
     }
+
+   
 
 
 }

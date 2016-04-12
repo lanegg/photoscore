@@ -36,7 +36,7 @@ public class Version {
     public static String getVersion(){
         return VERSION;
     }
-    public static void main(String[] args) {
-        System.out.println(TITLE +" " + VERSION);
-    }
+//    public static void main(String[] args) {
+//        System.out.println(TITLE +" " + VERSION);
+//    }
 }
